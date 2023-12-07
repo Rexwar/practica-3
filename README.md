@@ -34,7 +34,9 @@ Pasos para iniciar el Backend (Laravel):
 
 9. Inicia el servidor Laravel:
 
-   php artisan serve
+   php artisan serve --host {tuIPv4 desde ipconfig}
+   ej:
+   php artisan serve --host 192.196.155.144
 
 10. El backend estará disponible en la dirección que configuraste en "APP_URL". Por defecto, estará en http://localhost:8000/.
 
